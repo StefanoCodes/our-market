@@ -1,0 +1,40 @@
+import { SVGProps } from 'react'
+
+type NotificationIconProps = SVGProps<SVGSVGElement> & {
+  className?: string
+}
+
+export default function NotificationIcon({ className, ...props }: NotificationIconProps) {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      {...props}
+    >
+      <path
+        d="M8 4.29346V6.51346"
+        stroke="#475569"
+        strokeWidth="1.3"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+      />
+      <path
+        d="M8.01333 1.3335C5.55999 1.3335 3.57333 3.32016 3.57333 5.7735V7.1735C3.57333 7.62683 3.38666 8.30683 3.15333 8.6935L2.30666 10.1068C1.78666 10.9802 2.14666 11.9535 3.10666 12.2735C6.29333 13.3335 9.73999 13.3335 12.9267 12.2735C13.8267 11.9735 14.2133 10.9202 13.7267 10.1068L12.88 8.6935C12.6467 8.30683 12.46 7.62016 12.46 7.1735V5.7735C12.4533 3.3335 10.4533 1.3335 8.01333 1.3335Z"
+        stroke="#475569"
+        strokeWidth="1.3"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+      />
+      <path
+        d="M10.22 12.5469C10.22 13.7669 9.22 14.7669 8 14.7669C7.39333 14.7669 6.83333 14.5135 6.43333 14.1135C6.03333 13.7135 5.78 13.1535 5.78 12.5469"
+        stroke="#475569"
+        strokeWidth="1.3"
+        strokeMiterlimit="10"
+      />
+    </svg>
+  )
+}

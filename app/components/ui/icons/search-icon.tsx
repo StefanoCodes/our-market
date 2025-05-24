@@ -1,0 +1,34 @@
+export default function SearchIcon({
+  className,
+  onClick,
+}: {
+  className?: string
+  onClick?: () => void
+}) {
+  return (
+    <svg
+      width="21"
+      height="20"
+      viewBox="0 0 21 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      onClick={onClick}
+    >
+      <path
+        d="M9.51603 15.8333C13.1979 15.8333 16.1827 12.8486 16.1827 9.16667C16.1827 5.48477 13.1979 2.5 9.51603 2.5C5.83413 2.5 2.84937 5.48477 2.84937 9.16667C2.84937 12.8486 5.83413 15.8333 9.51603 15.8333Z"
+        stroke="#475569"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M17.8494 17.5L14.2244 13.875"
+        stroke="#475569"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}

@@ -1,0 +1,35 @@
+export default function FilterSearchIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="16"
+      height="17"
+      viewBox="0 0 16 17"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <path
+        d="M9.54655 13.2132C9.54655 13.6198 9.27986 14.1532 8.93986 14.3598L7.99988 14.9665C7.12654 15.5065 5.91321 14.8998 5.91321 13.8198V10.2532C5.91321 9.77984 5.64654 9.17318 5.37321 8.83984L2.81319 6.1465C2.47319 5.8065 2.20654 5.20651 2.20654 4.79985V3.25317C2.20654 2.44651 2.81322 1.83984 3.55322 1.83984H12.4465C13.1865 1.83984 13.7932 2.4465 13.7932 3.1865V4.6665C13.7932 5.2065 13.4532 5.87984 13.1199 6.21318"
+        stroke="#125129"
+        strokeWidth="1.3"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M10.7134 11.5132C11.8916 11.5132 12.8468 10.5581 12.8468 9.37992C12.8468 8.20172 11.8916 7.24658 10.7134 7.24658C9.53521 7.24658 8.58008 8.20172 8.58008 9.37992C8.58008 10.5581 9.53521 11.5132 10.7134 11.5132Z"
+        stroke="#125129"
+        strokeWidth="1.3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M13.2467 11.9132L12.5801 11.2466"
+        stroke="#292D32"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}

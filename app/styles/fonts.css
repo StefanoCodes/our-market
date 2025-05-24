@@ -1,0 +1,253 @@
+/* DM sans */
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+/* KOKO */
+@font-face {
+  font-family: 'Kokoschka';
+  src: url('/fonts/Kokoschka.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Kokoschka Extras';
+  src: url('/fonts/Kokoschka-Extras.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* INTER TIGHT */
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/InterTight[wght].ttf') format('truetype');
+  font-weight: 100 900; /* Supports variable weights from 100 to 900 */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Italic Inter Tight Variable Font */
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/InterTight-Italic[wght].ttf') format('truetype');
+  font-weight: 100 900; /* Variable weights from 100 to 900 */
+  font-style: italic;
+  font-display: swap;
+}
+
+/* HELVETICA */
+
+/* Light (300) */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-Light.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-LightCond.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-LightCond.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-LightCondObl.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-LightCondObl.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Normal (400) */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-Italic.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-Condensed.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-Condensed.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-CondensedObl.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-CondensedObl.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Normal (400) Extended */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeue-Extended.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-Bold.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-BoldItalic.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-BoldCondObl.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-BoldCondObl.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold (700) Extended */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeue-BoldExt.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-Black.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-BlackCond.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-BlackCond.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-BlackCondObl.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-BlackCondObl.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-BlackExt.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-BlackExt.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('/fonts/HelveticaNeue-BlackExtObl.ttf') format('truetype'),
+    url('/fonts/HelveticaNeue-BlackExtObl.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
